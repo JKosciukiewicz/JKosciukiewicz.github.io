@@ -3,40 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EncryptIt!</title>
+    <title>Jakub Kościukiewicz</title>
 
-    <link rel="stylesheet" href="./style/style.css">
-    <script src="./encryptors/ceasar.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="./favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <ul>
-        <li><a href="index.html">Szyfr Cezara</a></li>
-        <li><a href="vigenere.html">Szyfr Vigenere</a></li>
-        <li><a href="playfair.html">Szyfr Playfaira</a></li>>
-    </ul>
-    <h1>EncryptIt!</h1>
-    <div class="main-box">
-        <h2>Szyfrowanie szyfrem Cezara</h2>
-        <button class="mode-selector active" id="encrypt" id="encrypt">Zaszyfruj</button>
-        <button class="mode-selector" id="decrypt">Odszyfruj</button>
-        <div class="input-area">
-            <form >
-                <input type="text" id="input-text" placeholder="Podaj tekst do zaszyfrowania...">
-            </form>
+    <div class="content">
+        <div id="head" class="section section-light section-head">
+            <div class="section-content">
+                <div class="section-horizontal">
+                    <div class="image-wrapper">
+                        <img src="https://placehold.co/200x200">
+                    </div>
+                    <div class="info">
+                        <h1>Jakub Kościukiewicz</h1>
+                        <h2>Frontend Developer</h2>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="option-menu">
-            <label for="diff">Podaj przesunięcie (0-26) </label><br>
-            <input type="number" min="0" max="26" id="move"><br>
-            <button class="encrypt-selector" id="ceasar">Szyfruj</button>
+        <hr>
+        <!-- Section: 1 -->
+        <div class="section">
+            <div class="entry">
+                <div class="date-container">
+                    <div class="date">
+                        <p>10.2020-11.2023</p>
+                    </div>
+                    <div class="progress-bar-wrapper">
+                        <div class="progress-dot"></div>
+                        <div class="progress-bar"></div>
+                    </div>
+                </div>
+                <div class="icon">
+                    <img src="https://placehold.co/100x100">
+                </div>
+                <div class="description">
+                    <p>Lorem epe epe lorem epe epe lorem epe epe lorem epe epe lorem epe epe lorem epe epe lorem epe epe</p>
+                </div>
+            </div>
+
+            <div class="entry">
+                <div class="date-container">
+                    <div class="date">
+                        <p>10.2020-11.2023</p>
+                    </div>
+                    <div class="progress-bar-wrapper">
+                        <div class="progress-dot"></div>
+                        <div class="progress-bar"></div>
+                    </div>
+                </div>
+                <div class="icon">
+                    <img src="https://placehold.co/100x100">
+                </div>
+                <div class="description">
+                    <p>Lorem epe<br>epe lorem epe<br>epe lorem<br>epe epe lorem epe<br>epe lorem epe epe<br>lorem epe epe<br>lorem epe epe</p>
+                </div>
+            </div>
         </div>
-        <h3>Zaszyfrowany tekst: </h3>
-        <div class="output-area">
-            <p id="output-text"></p>
+        <!-- Section: 2 -->
+        <div class="section section-dark">
+            <div class="entry">
+                <div class="date-container">
+                    <div class="date">
+                        <p>10.2020-11.2023</p>
+                    </div>
+                    <div class="progress-bar-wrapper">
+                        <div class="progress-dot"></div>
+                        <div class="progress-bar"></div>
+                    </div>
+                </div>
+                <div class="icon">
+                    <img src="https://placehold.co/100x100">
+                </div>
+                <div class="description">
+                    <p>Lorem epe epe lorem epe epe lorem epe epe lorem epe epe lorem epe epe lorem epe epe lorem epe epe</p>
+                </div>
+            </div>
+
+            <div class="entry">
+                <div class="date-container">
+                    <div class="date">
+                        <p>10.2020-11.2023</p>
+                    </div>
+                    <div class="progress-bar-wrapper">
+                        <div class="progress-dot"></div>
+                        <div class="progress-bar"></div>
+                    </div>
+                </div>
+                <div class="icon">
+                    <img src="https://placehold.co/100x100">
+                </div>
+                <div class="description">
+                    <p>Lorem epe<br>epe lorem epe<br>epe lorem<br>epe epe lorem epe<br>epe lorem epe epe<br>lorem epe epe<br>lorem epe epe</p>
+                </div>
+            </div>
         </div>
     </div>
-    
 </body>
 </html>
