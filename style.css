@@ -144,6 +144,36 @@ hr{
     font-weight: 600;
     color: #777777;
 }
+.projects-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.project-entry{
+    text-align: center;
+    width: 200px;
+    margin: 20px 5px;
+}
+.project-entry a{
+    text-decoration: none;
+    color:black;
+}
+.project-entry h3{
+    margin: 10px 0 20px 0;
+}
+.project-entry:hover{
+    border: 1px solid black;
+}
+.pub-section ul{
+    padding-left: 20px;
+}
+.publication-entry{
+    display: flex;
+}
+.publication-entry p{
+    margin-right: 10px;
+}
 @media screen and (max-width: 1024px){
     .section-content {
         width: 75%;
