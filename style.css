@@ -137,6 +137,11 @@ hr{
         width: 75%;
     }
 }
+@media screen and (max-width: 900px){
+    .section-horizontal{
+        flex-direction: column;
+    }
+}
 
 @media screen and (max-width: 600px){
     .section-content {
