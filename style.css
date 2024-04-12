@@ -162,4 +162,8 @@ hr{
     .section-content {
         width: 90%;
     }
+    .icon img{
+        width: 40px;
+        border-radius: 5px;
+    }
 }
