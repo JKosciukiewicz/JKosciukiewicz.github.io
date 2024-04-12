@@ -9,7 +9,7 @@ body{
     justify-content: center;
 }
 .section{
-    padding: 10px 20px;
+    padding: 10px 0px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -38,6 +38,12 @@ p{
 .text-mono{
     font-family: "Noto Sans Mono", monospace;
 }
+.text-left{
+    text-align: left;
+}
+.text-fw{
+    width: 100%;
+}
 .image-wrapper{
     margin-right: 50px;
 }
@@ -57,8 +63,11 @@ hr{
     margin: 20px 0px 20px 0px;
     border: 0;
 }
+.section-content{
+    width:50%;
+}
 .entry{
-    width: 70%;
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     margin-bottom: 5px;
@@ -89,5 +98,46 @@ hr{
     background-color: #cfcfcf;
 }
 .icon{
-    margin-right: 10px;
+    margin-right: 10px
+}
+.icon img{
+    width: 60px;
+    border-radius: 5px;
+}
+.date{
+    width:80px;
+    font-size: 14px;
+    text-align: right;
+    padding-right: 5px;
+    color: #bbb;
+}
+.date p{
+    line-height: 18px;
+}
+.description p{
+    width: 100%;
+}
+.entry-name{
+    font-size: 1.1rem;
+}
+.entry-date{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.entry-desc{
+    margin-top: 2px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1024px){
+    .section-content {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .section-content {
+        width: 90%;
+    }
 }
