@@ -132,6 +132,18 @@ hr{
 .section-content{
     width: 50%;
 }
+.social-links img{
+    width: 40px;
+    margin: 0px 10px 0px 0px;
+}
+.info h1{
+    margin-bottom: 5px;
+}
+.info h3{
+    margin: 10px 0 20px 0;
+    font-weight: 600;
+    color: #777777;
+}
 @media screen and (max-width: 1024px){
     .section-content {
         width: 75%;
