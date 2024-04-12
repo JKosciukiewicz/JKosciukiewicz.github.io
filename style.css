@@ -129,7 +129,9 @@ hr{
     margin-bottom: 10px;
     text-align: justify;
 }
-
+.section-content{
+    width: 50%;
+}
 @media screen and (max-width: 1024px){
     .section-content {
         width: 75%;
