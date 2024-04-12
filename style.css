@@ -141,6 +141,9 @@ hr{
     .section-horizontal{
         flex-direction: column;
     }
+    .image-wrapper{
+        margin-right: 0;
+    }
 }
 
 @media screen and (max-width: 600px){
