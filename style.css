@@ -184,6 +184,9 @@ hr{
 .social-links{
     height: 70px;
 }
+#hide-text{
+    cursor: pointer;
+}
 #hide-text img{
     width: 20px;
     position: relative;
