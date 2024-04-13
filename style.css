@@ -190,6 +190,9 @@ hr{
     top: 4px;
     left: 5px;
 }
+#head{
+    padding-top: 30px;
+}
 @media screen and (max-width: 1024px){
     .section-content {
         width: 75%;
