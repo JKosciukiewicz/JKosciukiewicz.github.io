@@ -65,6 +65,7 @@ hr{
 }
 .section-content{
     width:50%;
+    max-width: 1000px;
 }
 .entry{
     width: 100%;
