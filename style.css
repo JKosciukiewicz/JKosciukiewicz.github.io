@@ -161,7 +161,9 @@ hr{
     color:black;
 }
 .project-entry h3{
-    margin: 10px 0 20px 0;
+    width:100%;
+    text-align: left;
+    margin: 10px 0 10px 0;
 }
 .project-entry:hover{
     border: 1px solid black;
