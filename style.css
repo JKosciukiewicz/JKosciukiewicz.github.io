@@ -153,8 +153,8 @@ hr{
 }
 .project-entry{
     text-align: center;
-    width: 200px;
-    margin: 20px 5px;
+    width: 100%;
+    padding: 20px 5px;
 }
 .project-entry a{
     text-decoration: none;
@@ -163,62 +163,62 @@ hr{
 .project-entry h3{
     width:100%;
     text-align: left;
-    margin: 10px 0 10px 0;
+    margin: 0px 0 10px 0;
 }
 .project-entry:hover{
-    border: 1px solid black;
+    box-shadow: 0px 0px 20px lightgray;
 }
 .pub-section ul{
-    padding-left: 20px;
+padding-left: 20px;
 }
 .publication-entry{
-    display: flex;
+display: flex;
 }
 .publication-entry p{
-    margin-right: 10px;
+margin-right: 10px;
 }
 #email-link{
-    text-decoration: none;
-    color: black;
+text-decoration: none;
+color: black;
 }
 .hide{
-    display: none;
+display: none;
 }
 .social-links{
-    height: 70px;
+height: 70px;
 }
 #hide-text{
-    cursor: pointer;
+cursor: pointer;
 }
 #hide-text img{
-    width: 20px;
-    position: relative;
-    top: 4px;
-    left: 5px;
+width: 20px;
+position: relative;
+top: 4px;
+left: 5px;
 }
 #head{
-    padding-top: 30px;
+padding-top: 30px;
 }
 @media screen and (max-width: 1024px){
-    .section-content {
-        width: 75%;
-    }
+.section-content {
+width: 75%;
+}
 }
 @media screen and (max-width: 900px){
-    .section-horizontal{
-        flex-direction: column;
-    }
-    .image-wrapper{
-        margin-right: 0;
-    }
+.section-horizontal{
+flex-direction: column;
+}
+.image-wrapper{
+margin-right: 0;
+}
 }
 
 @media screen and (max-width: 600px){
-    .section-content {
-        width: 90%;
-    }
-    .icon img{
-        width: 40px;
-        border-radius: 5px;
-    }
+.section-content {
+width: 90%;
+}
+.icon img{
+width: 40px;
+border-radius: 5px;
+}
 }
