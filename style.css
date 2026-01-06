@@ -173,6 +173,7 @@ padding-left: 20px;
 }
 .publication-entry{
 display: flex;
+margin-bottom: 10px;
 }
 .publication-entry p{
 margin-right: 10px;
